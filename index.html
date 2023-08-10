@@ -1,0 +1,33 @@
+<!--Crie uma aplicação web que será um analisador de números:
+- Deve inserir em um select um número de 1 a 100;
+- Quando clicar em finalizar, deve mostrar: 
+a) quantos números foram cadastrados;
+b) maior valor informado;
+c) menor valor informado;
+d) soma de todos os valores informados;
+e) média de todos os valores;
+f) não poderá ser inserido números repetidos.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador</title>
+</head>
+<body>
+    <h1>Analisador de números</h1><!--Título-->
+    <div class="digitar">
+        <label for="num">Digite um número de 1 a 100:</label><!--informando o que deve ser digitado-->
+        <input type="number" id="txtn"><br> <!--espaço para ser digitado o número-->
+        <input type="button" value="Enviar" onclick="enviar()"> <!--botão de enviar-->
+    </div>
+    <select name="" id="seltab" size="10px"> <!--select para colocar o números digitados dentro-->
+
+    </select> <br>
+    <input type="button" value="Finalizar" onclick="finalizar()"> <!--botão de finalizar-->
+    <p id="resul"></p> <!--campo para imprimir o resultado em tela-->
+</body>
+</html>

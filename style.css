@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*definindo cor para o fundo e alinhando todos os itens no centro*/
+    background-color: #FFBABA;
+    text-align: center;
+}
+
+h1{
+    /*definindo cor e tamanho para o título*/
+    color: #7B2869;
+    font-size: 60px;
+    /*definindo espaço entre o título e a informação abaixo*/
+    padding: 5px;
+}
+
+.digitar{
+    /*definindo tamanho e espaçamento da div (contendo a label e o input)*/
+    font-size: 30px;
+    padding: 10px;
+}
+
+input{
+    /*aumentando a letra e alinhando o texto digitado no centro*/
+    font-size: 25px;
+    text-align: center;
+}
+
+input[type="button"]{
+    /*definindo cor para fundo e borda do botão, aumantando o espaçamento entre o texto e a borda*/
+    background-color: #C85C8E;
+    border: 4px solid #9D3C72;
+    padding: 7px;
+}
+
+input[type="button"]:hover{
+    /*colocando cores mais escuras quando possicionar o mouse em cima*/
+    background-color: #9D3C72;
+    border: 4px solid #7B2869;
+}
+
+select{
+    /*aumentando o tamanho do texto do select, a cor do fundo e da borda e aumentando o espaçamento*/
+    font-size: 23px;
+    background-color: #FFBABA;
+    border: 2px solid #C85C8E;
+    padding: 5px;
+}
+
+p{
+    /*aumantando o tamanho do texto, definindo o tipo de fonte e o espaçamento*/
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
